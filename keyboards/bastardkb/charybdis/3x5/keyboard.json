@@ -1,40 +1,13 @@
 {
-    "keyboard_name": "Charybdis Nano (3x5) Splinky",
     "manufacturer": "Bastard Keyboards",
     "url": "https://bastardkb.com/charybdis-nano",
     "usb": {
-        "device_version": "2.0.0",
         "pid": "0x1832",
         "vid": "0xA8F8"
     },
     "rgb_matrix": {
-        "driver": "ws2812",
         "split_count": [18, 18]
     },
-    "matrix_pins": {
-        "cols": ["GP28", "GP21", "GP6", "GP7", "GP8"],
-        "rows": ["GP26", "GP5", "GP4", "GP9"]
-    },
-    "diode_direction": "ROW2COL",
-    "split": {
-        "soft_serial_pin": "GP1",
-        "bootmagic": {
-            "matrix": [4, 0]
-        }
-    },
-    "features": {
-        "bootmagic": true,
-        "mousekey": true,
-        "extrakey": true,
-        "rgb_matrix": true,
-        "pointing_device": true
-    },
-    "ws2812": {
-        "pin": "GP0",
-        "driver": "vendor"
-    },
-    "processor": "RP2040",
-    "bootloader": "rp2040",
     "layout_aliases": {
         "LAYOUT_charybdis_3x5": "LAYOUT"
     },
@@ -78,10 +51,10 @@
                 {"matrix": [6, 0], "x": 15, "y": 2},
 
                 {"matrix": [3, 2], "x": 4, "y": 3},
-                {"matrix": [3, 3], "x": 5, "y": 3},
-                {"matrix": [3, 0], "x": 6, "y": 3},
+                {"matrix": [3, 0], "x": 5, "y": 3},
+                {"matrix": [7, 0], "x": 6, "y": 3},
 
-                {"matrix": [7, 0], "x": 9, "y": 3},
+                {"matrix": [7, 3], "x": 9, "y": 3},
                 {"matrix": [7, 2], "x": 10, "y": 3}
             ]
         }
