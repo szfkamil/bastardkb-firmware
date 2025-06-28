@@ -23,8 +23,9 @@
 // Enable use of pointing device on slave split.
 #define SPLIT_POINTING_ENABLE
 
-// Pointing device is on the LEFT split.
-// #define POINTING_DEVICE_RIGHT
+// Pointing device is on the right split.
+//#define POINTING_DEVICE_RIGHT
+// Pointing device is on the left split.
 #undef POINTING_DEVICE_RIGHT
 #define POINTING_DEVICE_LEFT
 
@@ -33,8 +34,7 @@
 
 // Invert X axis on mouse reports.
 //#define POINTING_DEVICE_INVERT_X
-
-// Y axis for left-handed
+// Modification for pointing device on left split
 #define POINTING_DEVICE_INVERT_Y
 
 /* RGB matrix support. */
