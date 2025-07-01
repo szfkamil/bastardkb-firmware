@@ -19,8 +19,7 @@
 #pragma once
 
 /* Trackball angle adjustment. */
-#define ROTATIONAL_TRANSFORM_ANGLE -25
-
+#define ROTATIONAL_TRANSFORM_ANGLE 5
 /* Handedness. */
 #define MASTER_RIGHT
 
